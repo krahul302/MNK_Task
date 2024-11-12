@@ -88,7 +88,7 @@ def main():
             task_manager.complete_task(task_id)
         elif choice == "5":
             task_manager.save_tasks()
-            print("Goodbye!")
+            print("Good bye!")
             break
         else:
             print("Invalid choice. Please try again.")
